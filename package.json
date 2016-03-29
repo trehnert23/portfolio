@@ -7,11 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "BSD-2-Clause",
   "dependencies": {
     "body-parser": "^1.14.0",
     "bower": "^1.5.3",
     "express": "^4.13.3",
     "mongoose": "^4.1.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trehnert23/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trehnert23/portfolio/issues"
   }
 }
