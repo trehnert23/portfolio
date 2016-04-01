@@ -16,6 +16,16 @@ body {
 
 .slide {
   position: relative;
+  padding: 20vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
+
+.slide2 {
+  position: relative;
   padding: 25vh 10%;
   min-height: 100vh;
   width: 100vw;
@@ -87,7 +97,7 @@ body {
 #home_link {
   margin-left: 20px;
   font-size: 30px;
-  color: black;
+  color: white;
   background-color: transparent;
   border: transparent;
   font-family: Dosis;
@@ -103,9 +113,9 @@ body {
   background-color: transparent;
   border: transparent;
   margin-top: 1%;
-  color: black;
+  color: white;
   font-family: Dosis;
-  font-size: 22px;
+  font-size: 28px;
   outline: none;
 }
 
@@ -157,6 +167,10 @@ body {
   font-size: 60px;
   text-align: center;
   margin-top: -18vh;
+}
+
+.projects_div {
+  background-color: rgba(0,0,0,0.5);
 }
 
 .hover_paragraph {
@@ -366,21 +380,44 @@ body {
              /*contact page formatting*/
 /*----------------------------------------------*/
 
-.contact_bubbles {
+.top_bubble {
+  margin-bottom: 5vh;
+}
+
+.email_form {
+  background-color: rgba(85,172,238,0.5);
+  border-radius: 5%;
+  margin-bottom: 0;
+}
+
+.form_boxes {
+  margin: 5% 5% 10% 10%;
+  font-family: Dosis;
+  color: white;
+  font-size: 20px;
+  width: 80%;
+}
+
+.form_textarea {
+  width: 100%;
+  color: black;
+}
+
+.input_fields {
+  color: black;
+}
+
+.form_table {
+  width: 100%;
+}
+
+.form_header {
+  font-size: 30px;
   text-align: center;
-  position: relative;
-  display: inline-block;
-  width: 20%;
-  /*height: 80vh;*/
-  margin-top: -5vh;
-  margin-left: -5vh;
-  margin-right: 5vh;
-  float: left;
 }
 
 .box {
   border-radius: 50%;
-  margin-bottom: 5vh;
   background: rgb(200,200,200);
   width: 15vh;
   height: 15vh;
@@ -393,7 +430,7 @@ body {
 .box:hover {
   background: white;
   border-radius: 50%;
-  box-shadow: 0px 0 0 0 #FFF,  0px 0 0 10px #1E90FF;
+  box-shadow: 0px 0 0 0 #FFF,  0px 0 0 10px #55acee;
 }
 
 .contact_images {
@@ -405,28 +442,27 @@ body {
 .linkedin_image {
   width: 60%;
   margin-top: 18%;
+  margin-left: 18%;
 }
 
 .github_image {
   width: 60%;
   margin-top: 20%;
+  margin-left: 20%;
 }
 
 .email_image {
   width: 80%;
   margin-top: 10%;
+  margin-left: 10%;
+
 }
 
 .myphoto {
-  position: relative;
   width: 40vh;
-  display: block;
   border-radius: 200px;
   border: 2px solid white;
-  margin: 5vh;
-  margin-left: 30vh;
-  margin-top: -50vh;
-  float: left;
+  margin-bottom: 2vh;
 }
 
 .about_me_paragraph {
