@@ -162,6 +162,17 @@ body {
 .hover_paragraph {
   margin: 0;
   padding: 0;
+  font-size: 4vh;
+  text-align: left;
+  font-family: Dosis;
+}
+
+.hover_click {
+  bottom: 0;
+  font-size: 3vh;
+  text-align: left;
+  font-family: Dosis;
+  position: absolute;
 }
 
 .content-item {
@@ -169,6 +180,8 @@ body {
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 50vh;
   margin: 7vh;
   overflow: hidden;
@@ -176,7 +189,7 @@ body {
 }
 
 .content-item .overlay {
-  border-bottom: 100px solid #e8c63d;
+  border-bottom: 100px solid #55acee;
   border-left: 100px solid transparent;
   bottom: 0;
   height: 0;
@@ -192,8 +205,8 @@ body {
 }
 
 .content-item:hover .overlay {
-  border-bottom: 800px solid #e8c63d;
-  border-left: 800px solid transparent;
+  border-bottom: 1100px solid #55acee;
+  border-left: 1100px solid transparent;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
@@ -202,13 +215,14 @@ body {
 
 .content-item .corner-overlay-content {
   bottom: 15px;
-  color: #333;
+  color: white;
   position: absolute;
   right: 15px;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  font-family: Dosis;
 }
 
 .content-item:hover .corner-overlay-content {
@@ -221,7 +235,7 @@ body {
 
 .content-item .overlay-content {
   bottom: 0;
-  color: #333;
+  color: white;
   left: 0;
   opacity: 0;
   padding: 30px;
@@ -232,11 +246,14 @@ body {
   -o-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  font-family: Dosis;
 }
 
-.content-item .overlay-content h2 {
-  border-bottom: 1px solid #333;
+.content-item .overlay-content .title_header {
+  border-bottom: 1px solid white;
   padding: 0 0 12px;
+  text-align: center;
+  font-size: 6vh;
 }
 
 .content-item:hover .overlay-content {
@@ -252,10 +269,12 @@ body {
 }
 
 .content-item2 {
-  background: url('/images/shooting.jpg');
+  background: url('/images/shootingGame.jpg');
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 50vh;
   margin: 7vh;
   overflow: hidden;
@@ -263,7 +282,7 @@ body {
 }
 
 .content-item2 .overlay {
-  border-bottom: 100px solid #e8c63d;
+  border-bottom: 100px solid #55acee;
   border-left: 100px solid transparent;
   bottom: 0;
   height: 0;
@@ -279,8 +298,8 @@ body {
 }
 
 .content-item2:hover .overlay {
-  border-bottom: 800px solid #e8c63d;
-  border-left: 800px solid transparent;
+  border-bottom: 1100px solid #55acee;
+  border-left: 1100px solid transparent;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
@@ -289,13 +308,14 @@ body {
 
 .content-item2 .corner-overlay-content {
   bottom: 15px;
-  color: #333;
+  color: white;
   position: absolute;
   right: 15px;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  font-family: Dosis;
 }
 
 .content-item2:hover .corner-overlay-content {
@@ -308,7 +328,7 @@ body {
 
 .content-item2 .overlay-content {
   bottom: 0;
-  color: #333;
+  color: white;
   left: 0;
   opacity: 0;
   padding: 30px;
@@ -319,11 +339,14 @@ body {
   -o-transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  font-family: Dosis;
 }
 
-.content-item2 .overlay-content h2 {
-  border-bottom: 1px solid #333;
+.content-item2 .overlay-content .title_header {
+  border-bottom: 1px solid white;
   padding: 0 0 12px;
+  text-align: center;
+  font-size: 6vh;
 }
 
 .content-item2:hover .overlay-content {
